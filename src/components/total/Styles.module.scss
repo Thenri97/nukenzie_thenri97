@@ -1,0 +1,25 @@
+.total {
+    padding: 1rem;
+    border: 1px solid var(--grey-2);
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    span {
+        color: var(--color-primary);
+        font-size: 1rem !important;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem !important;
+        color: var(--grey-4);
+    }
+}

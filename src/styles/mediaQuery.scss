@@ -1,0 +1,35 @@
+@media(min-width: 768px){
+    .logo{
+        margin-left: 3rem !important;
+    }
+    .upperSection{
+        flex-direction: row !important;
+    }
+    .total__container{
+        margin-top: 1.8rem !important;
+        position: absolute;
+        top: 33.6875rem;
+    }
+    main{
+        display: flex;
+        gap: 4rem;
+        padding: 2.5rem 3rem !important;
+    }
+    
+    .financeResume__container{
+        margin-top: 1.8rem;
+    }
+    .downSection{
+        width: 500px;
+    }
+
+    .cardInfo__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cardValue__container{
+        display: flex;
+        gap: 0.3rem;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,20 @@
+@import "./typography.scss";
+@import "./reset.scss";
+@import "./globalStyle.scss";
+@import "./button.scss";
+@import "./mediaQuery.scss";
+
+
+main{
+    padding: 1rem   ;
+}
+.upperSection{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.outgo{
+    border-left: 5px solid var(--grey-2) !important;
+}
